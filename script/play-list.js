@@ -1,7 +1,7 @@
 const playList = [
     {
       title: 'Aqua Caelestis',
-      src: 'https://github.com/natalliapadaika/myMomentum/blob/main/Aqua Caelestis.mp3',
+      src: 'https://github.com/natalliapadaika/myMomentum/blob/main/sounds/Aqua%20Caelestis.mp3',
       duration: '00:58'
     },
     {
