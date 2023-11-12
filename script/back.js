@@ -32,6 +32,7 @@ const bgNum = String(randomNum).padStart(2, "0");
 
 
 const getSlideNext = () => {
+  randomNum = getRandomNum(1, 20);
   if (randomNum !== 20) {
     setBg(
       timeOfDay[Math.trunc(hours / 6)],
@@ -44,6 +45,7 @@ const getSlideNext = () => {
 
 
 const getSlidePrev = () => {
+  randomNum = getRandomNum(1, 20);
   if (randomNum > 1) {
     setBg(
       timeOfDay[Math.trunc(hours / 6)],
