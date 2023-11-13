@@ -11,10 +11,13 @@ export { playList };
 let playNum = 0;
 
 function playAudio() {
-  audio.src = playList[playNum].src;
-  audio.currentTime = 0;
+
+  
 
   if (!isPlay) {
+   audio.src = playList[playNum].src;
+   audio.currentTime = 0;
+
     audio.play();
     isPlay = true;
     playPauseBtn.classList.add("pause");
